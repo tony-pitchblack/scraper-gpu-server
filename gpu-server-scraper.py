@@ -1,6 +1,7 @@
 import re
 from bs4 import BeautifulSoup
 
+# URL: https://www.reg.ru/dedicated/
 with open("./servers-data.html", encoding='utf-8', mode='r') as file:
     servers_data = file.read().replace('\n', '')
 
